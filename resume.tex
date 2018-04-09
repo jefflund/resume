@@ -6,61 +6,52 @@
 \moveleft.5\hoffset\centerline{\large\bf Jeffrey Lund}
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
 \moveleft.5\hoffset\centerline{jefflund@gmail.com}
-\moveleft.5\hoffset\centerline{(425) 306-0496}
+\moveleft.5\hoffset\centerline{(425) 306-0496} % XXX keep number?
 
 \begin{resume}
 
 \section{Education}
 
 In progress Ph.D. in Computer Science, Brigham Young University\\
-Anticipated graduation: December 2017
+Anticipated graduation: August 2018
 
 M.S. in Computer Science, Brigham Young University\\
-Graduated: December 2015\\
-Thesis: Fast Inference for Interactive Models of Text\\
-GPA: 4.0
+Graduated: December 2015 ~ GPA: 4.0\\ % XXX keep gpa?
+Thesis: Fast Inference for Interactive Models of Text
 
 B.S. in Computer Science, Brigham Young University\\
-Graduated: Magna Cum Laude April 2011\\
-Minor: Mathematics\\
-GPA: 3.9
+Graduated: Magna Cum Laude April 2011 ~ GPA: 3.9\\
+Minor: Mathematics
 
 Relevant Graduate Coursework: Natural Language Processing, Bayesian Statistics,
-Machine Learning, Artificial Intelligence, Data Mining
+Machine Learning, Artificial Intelligence, Data Mining, Deep Learning
+% XXX how much of this?
 
-\section{Languages}
-
-Expert: Python, Go\\
-Proficient: C++, Java
-
-\section{Tools and Methodology}
-Git, Unix toolchain, Agile developement, Test Driven Developement
+\section{Languages and Tools}
+Python, Go, C++, Java\\
+Git, Unix toolchain
+% XXX okay?
 
 \section{Experience}
 
 Research Assistant, BYU Applied Machine Learning Lab \hfill Sept 2011 - Present
 \begin{itemize}  \itemsep -2pt
-% Eventually this needs to be turned into a CV, but then I'd want more pubs...
-\item Co-authored ``Are Your Anchors Going Up or Down?'' at NACCL 2015
-\item Co-authored and presented ``Mrs: MapReduce for Scientific Computing in Python'' at SC 2012
-\item Organized and led Topical Guide project group
-\item Implemented novel topic models for text analytics and document clustering
+\item Organized and led topic modeling group at BYU
+\item Implemented novel interactive topic models for document classification
 \item Taught CS 142 Introduction to Computer Programming Summer 2015
 \end{itemize}
 
 Engineering Intern, Google Inc. \hfill April 2015 - June 2015
 \begin{itemize} \itemsep -2pt
-\item Improved accuracy of DoubleClick conversion rate prediction by
-integrating topic-based signals from Rephil into prediction pipelines
-\item Demonstrated bid optimization improvements using topic-based conversion
-rate prediction
+\item Improved accuracy of DoubleClick conversion rate prediction by integrating topic-based signals from Rephil into prediction pipeline
+\item Demonstrated bid optimization improvements using topic-based conversion rate prediction
 \end{itemize}
 
 Engineering Intern, Google Inc. \hfill May 2013 - Aug 2013
 \begin{itemize} \itemsep -2pt
 \item Worked on Rephil team, which is a web scale noisy-OR based topic model
 \item Added to suite of tools used by Rephil team for model comparison
-\item Designed and implemented a methodology for automatically detecting harmful model updates in incrementally trained Rephil models
+\item Designed and implemented methodology for automatically detecting harmful model updates in incrementally trained Rephil models
 \end{itemize}
 
 Intern, LucidChart Inc. \hfill May 2012 - Aug 2012
@@ -78,7 +69,7 @@ Edison Identification Intern, GE Energy \hfill May 2011 - Aug 2011
 Research Assistant, BYU Natural Language Processing Lab \hfill Sept 2010 - Apr
 2011
 \begin{itemize} \itemsep -2pt
-\item Co-authored ``The Topic Browser: An Interactive Tool for Browsing Topic Models'', published at NIPS 2010 workshop
+\item Implemented various visualizations of topic models for Topical Browser
 \end{itemize}
 
 Teaching Assistant, Algorithm Analysis \hfill Jan 2011 - Apr 2011
@@ -89,7 +80,6 @@ Teaching Assistant, Algorithm Analysis \hfill Jan 2011 - Apr 2011
 Teaching Assistant, Artificial Intelligence \hfill Sept 2010 - Dec 2010
 \begin{itemize} \itemsep -2pt
 \item Mentored students by teaching help sessions and consulting with project teams
-\item Maintained and updated game server for class projects and tournament
 \end{itemize}
 
 Student Programmer, BYU Print and Mail \hfill Sept 2008 - Aug 2010
@@ -97,36 +87,25 @@ Student Programmer, BYU Print and Mail \hfill Sept 2008 - Aug 2010
 \item Implemented automated order placement, tracking and billing system
 \end{itemize}
 
-\section{Projects}
+% XXX last few are blah?
 
-Ankura \hfill {\it https://github.com/jlund3/ankura}
-\begin{itemize}
-\item Implemented the anchor algorithm for fast, scalable topic modeling in Python
-\item Extended the vanilla anchor algorithm to use multi-word anchors
-\item Provided mechanisms for interactive topic modeling backed by anchor words
-\end{itemize}
+\section{Publications}
 
-ModelT \hfill {\it https://github.com/jlund3/modelt}
-\begin{itemize}
-\item Created efficient Go implementations of various probabilistic models of text such as LDA, ITM, and Mixture of Multinomials
-\item Included pipeline tools which allow for easy importing and pre-processing
-\end{itemize}
+% XXX I am a PhD, and my MR stuff got me an internship, but its a zzz-fest
 
-Topical Guide \hfill {\it https://github.com/BYU-NLP-Lab/topicalguide}
-\begin{itemize}
-\item Added new views to Python frontend for exploring textual data in the
-context of topic modeling
-\item Integrated various metrics which facilitate fast trend discovery
-\item From 2012 to 2014 led Topical Guide, helping to design architectural
-changes which more easily enable changes to underlying topic models
-\end{itemize}
+Jeffrey Lund, Connor Cook, Kevin Seppi and Jordan Boyd-Graber. Tandem Anchoring: A Multiword Anchor Approach for Interactive Topic Modeling. Association for Computational Linguistics, 2017
 
-% Mrs is missing!
+Yu Lu, Jeffrey Lund and Jordan Boyd-Graber. Why ADAGRAD Fails for Online Topic Modeling. Empirical Methods in Natural Language Processing, 2017
 
-%Add GoRL or Stones?
-%designed and implemented a framework for developting two-dimensional tile
-%based games in Go, complete with an Entity-Component system, functionality for
-%procedurally generated content, field of view and AI.
+Jeffrey Lund, Chace Ashcroft, Andrew McNabb and Kevin Seppi. Mrs: High Performance MapReduce for Iterative and Asynchronous Algorithms in Python. Python for High-Performance and Scientific Computing, 2016
+
+Jeffrey Lund, Paul Felt, Kevin Seppi and Eric Ringger. Fast Inference for Interactive Models of Text. International Conference on Computational Linguistics, 2016
+
+Thang Nguyen, Jordan Boyd-Graber, Jeffrey Lund, Kevin Seppi and Eric Ringger. Is Your Anchor Going Up or Down? Fast and Accurate Supervised Topic Models. North American Association for Computational Linguistics, 2015
+
+Andrew McNabb, Jeffrey Lund and Kevin Seppi. Mrs: MapReduce for Scientific Computing in Python. Python for High-Performance and Scientific Computing, 2012
+
+Matthew Gardner, Joshua Lutes, Jeffrey Lund, Joshua Hansen, Daniel Walker, Eric Ringger and Kevin Seppi. The Topic Browser: An Interactive Tool for Browsing Topic Models. NIPS Workshop on Challenges of Data Visualization, 2010
 
 \end{resume}
 \end{document}
